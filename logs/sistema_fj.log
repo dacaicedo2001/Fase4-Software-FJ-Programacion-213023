@@ -1,0 +1,138 @@
+2026-11-17 20:05:44 | INFO | software_fj | Sistema iniciado: Software FJ
+2026-11-17 20:05:44 | INFO | software_fj | Servicio registrado: SRV-SALA-01
+2026-11-17 20:05:44 | DEBUG | software_fj | Finally: intento de registro de servicio finalizado
+2026-11-17 20:05:44 | INFO | software_fj | Servicio registrado: SRV-EQ-01
+2026-11-17 20:05:44 | DEBUG | software_fj | Finally: intento de registro de servicio finalizado
+2026-11-17 20:05:44 | INFO | software_fj | Servicio registrado: SRV-ASE-01
+2026-11-17 20:05:44 | DEBUG | software_fj | Finally: intento de registro de servicio finalizado
+2026-11-17 20:05:44 | INFO | software_fj | Servicio registrado: SRV-SALA-02
+2026-11-17 20:05:44 | DEBUG | software_fj | Finally: intento de registro de servicio finalizado
+2026-11-17 20:05:44 | INFO | software_fj | Cliente registrado: Daniel Caicedo (CLI-001)
+2026-11-17 20:05:44 | DEBUG | software_fj | Finally: intento de registro de cliente finalizado
+2026-11-17 20:05:44 | INFO | software_fj | SIM-01 OK | Registro válido de cliente | Cliente[CLI-001] Daniel Caicedo <daniel.caicedo@email.com> (activo)
+2026-11-17 20:05:44 | ERROR | software_fj | Registro de cliente fallido: El correo electrónico no es válido.
+2026-11-17 20:05:44 | DEBUG | software_fj | Finally: intento de registro de cliente finalizado
+2026-11-17 20:05:44 | INFO | software_fj | SIM-02 OK | Registro inválido de cliente (correo) | None
+2026-11-17 20:05:44 | ERROR | software_fj | SIM-03 ERROR | Intento directo de Cliente inválido | El nombre debe tener al menos 3 caracteres.
+2026-11-17 20:05:44 | INFO | software_fj | Cliente registrado: María Fernanda López (CLI-004)
+2026-11-17 20:05:44 | DEBUG | software_fj | Finally: intento de registro de cliente finalizado
+2026-11-17 20:05:44 | INFO | software_fj | SIM-04 OK | Registro válido de segundo cliente | Cliente[CLI-004] María Fernanda López <maria.lopez@email.com> (activo)
+2026-11-17 20:05:44 | ERROR | software_fj | SIM-05 ERROR | Creación incorrecta de servicio (tarifa negativa) | La tarifa base debe ser mayor que cero.
+2026-11-17 20:05:44 | INFO | software_fj | Reserva creada RSV-0001 (pendiente)
+2026-11-17 20:05:44 | INFO | software_fj | Reserva RSV-0001 confirmada. Costo=$257040.00
+2026-11-17 20:05:44 | DEBUG | software_fj | Finally: operación de reserva cerrada
+2026-11-17 20:05:44 | INFO | software_fj | SIM-06 OK | Reserva exitosa de sala | Reserva[RSV-0001] estado=confirmada cliente=Daniel Caicedo servicio=Sala Innovación duracion=3.0h costo=$257040.00
+2026-11-17 20:05:44 | INFO | software_fj | Reserva creada RSV-0002 (pendiente)
+2026-11-17 20:05:44 | INFO | software_fj | Reserva RSV-0002 confirmada. Costo=$367750.00
+2026-11-17 20:05:44 | DEBUG | software_fj | Finally: operación de reserva cerrada
+2026-11-17 20:05:44 | INFO | software_fj | SIM-07 OK | Reserva exitosa de alquiler de equipo | Reserva[RSV-0002] estado=confirmada cliente=María Fernanda López servicio=Kit Proyección duracion=5.0h costo=$367750.00
+2026-11-17 20:05:44 | INFO | software_fj | Servicio SRV-SALA-02 disponible=False
+2026-11-17 20:05:44 | ERROR | software_fj | Reserva fallida: Servicio 'SRV-SALA-02' no disponible.
+2026-11-17 20:05:44 | DEBUG | software_fj | Finally: operación de reserva cerrada
+2026-11-17 20:05:44 | INFO | software_fj | SIM-08 OK | Reserva fallida por servicio no disponible | None
+2026-11-17 20:05:44 | ERROR | software_fj | Reserva fallida: Cliente 'CLI-999' no encontrado.
+2026-11-17 20:05:44 | DEBUG | software_fj | Finally: operación de reserva cerrada
+2026-11-17 20:05:44 | INFO | software_fj | SIM-09 OK | Reserva fallida por cliente inexistente | None
+2026-11-17 20:05:44 | INFO | software_fj | Reserva creada RSV-0003 (pendiente)
+2026-11-17 20:05:44 | INFO | software_fj | Reserva RSV-0003 confirmada. Costo=$307800.00
+2026-11-17 20:05:44 | DEBUG | software_fj | Finally: operación de reserva cerrada
+2026-11-17 20:05:44 | INFO | software_fj | Reserva RSV-0003 procesada correctamente
+2026-11-17 20:05:44 | INFO | software_fj | SIM-10 OK | Asesoría urgente confirmada y procesada | Reserva[RSV-0003] estado=procesada cliente=María Fernanda López servicio=Asesoría Arquitectura de Software duracion=2.0h costo=$307800.00
+2026-11-17 20:05:44 | INFO | software_fj | Reserva RSV-0001 cancelada. Motivo: Cambio de agenda
+2026-11-17 20:05:44 | INFO | software_fj | SIM-11 OK | Cancelación de reserva existente | True
+2026-11-17 20:05:44 | ERROR | software_fj | Cancelación inválida RSV-0003: Intento indebido
+2026-11-17 20:05:44 | ERROR | software_fj | No se canceló RSV-0003: No se puede cancelar una reserva procesada.
+2026-11-17 20:05:44 | INFO | software_fj | SIM-12 OK | Cancelación inválida de reserva procesada | False
+2026-11-17 20:05:44 | INFO | software_fj | Simulaciones finalizadas. Sistema estable.
+2026-11-17 20:14:44 | INFO | software_fj | Sistema iniciado: Software FJ
+2026-11-17 20:14:44 | INFO | software_fj | Servicio registrado: SRV-SALA-01
+2026-11-17 20:14:44 | DEBUG | software_fj | Finally: intento de registro de servicio finalizado
+2026-11-17 20:14:44 | INFO | software_fj | Servicio registrado: SRV-EQ-01
+2026-11-17 20:14:44 | DEBUG | software_fj | Finally: intento de registro de servicio finalizado
+2026-11-17 20:14:44 | INFO | software_fj | Servicio registrado: SRV-ASE-01
+2026-11-17 20:14:44 | DEBUG | software_fj | Finally: intento de registro de servicio finalizado
+2026-11-17 20:14:44 | INFO | software_fj | Servicio registrado: SRV-SALA-02
+2026-11-17 20:14:44 | DEBUG | software_fj | Finally: intento de registro de servicio finalizado
+2026-11-17 20:14:44 | INFO | software_fj | Cliente registrado: Daniel Caicedo (CLI-001)
+2026-11-17 20:14:44 | DEBUG | software_fj | Finally: intento de registro de cliente finalizado
+2026-11-17 20:14:44 | INFO | software_fj | SIM-01 OK | Registro válido de cliente | Cliente[CLI-001] Daniel Caicedo <daniel.caicedo@email.com> (activo)
+2026-11-17 20:14:44 | ERROR | software_fj | Registro de cliente fallido: El correo electrónico no es válido.
+2026-11-17 20:14:44 | DEBUG | software_fj | Finally: intento de registro de cliente finalizado
+2026-11-17 20:14:44 | INFO | software_fj | SIM-02 OK | Registro inválido de cliente (correo) | None
+2026-11-17 20:14:44 | ERROR | software_fj | SIM-03 ERROR | Intento directo de Cliente inválido | El nombre debe tener al menos 3 caracteres.
+2026-11-17 20:14:44 | INFO | software_fj | Cliente registrado: María Fernanda López (CLI-004)
+2026-11-17 20:14:44 | DEBUG | software_fj | Finally: intento de registro de cliente finalizado
+2026-11-17 20:14:44 | INFO | software_fj | SIM-04 OK | Registro válido de segundo cliente | Cliente[CLI-004] María Fernanda López <maria.lopez@email.com> (activo)
+2026-11-17 20:14:44 | ERROR | software_fj | SIM-05 ERROR | Creación incorrecta de servicio (tarifa negativa) | La tarifa base debe ser mayor que cero.
+2026-11-17 20:14:44 | INFO | software_fj | Reserva creada RSV-0001 (pendiente)
+2026-11-17 20:14:44 | INFO | software_fj | Reserva RSV-0001 confirmada. Costo=$257040.00
+2026-11-17 20:14:44 | DEBUG | software_fj | Finally: operación de reserva cerrada
+2026-11-17 20:14:44 | INFO | software_fj | SIM-06 OK | Reserva exitosa de sala | Reserva[RSV-0001] estado=confirmada cliente=Daniel Caicedo servicio=Sala Innovación duracion=3.0h costo=$257040.00
+2026-11-17 20:14:44 | INFO | software_fj | Reserva creada RSV-0002 (pendiente)
+2026-11-17 20:14:44 | INFO | software_fj | Reserva RSV-0002 confirmada. Costo=$367750.00
+2026-11-17 20:14:44 | DEBUG | software_fj | Finally: operación de reserva cerrada
+2026-11-17 20:14:44 | INFO | software_fj | SIM-07 OK | Reserva exitosa de alquiler de equipo | Reserva[RSV-0002] estado=confirmada cliente=María Fernanda López servicio=Kit Proyección duracion=5.0h costo=$367750.00
+2026-11-17 20:14:44 | INFO | software_fj | Servicio SRV-SALA-02 disponible=False
+2026-11-17 20:14:44 | ERROR | software_fj | Reserva fallida: Servicio 'SRV-SALA-02' no disponible.
+2026-11-17 20:14:44 | DEBUG | software_fj | Finally: operación de reserva cerrada
+2026-11-17 20:14:44 | INFO | software_fj | SIM-08 OK | Reserva fallida por servicio no disponible | None
+2026-11-17 20:14:44 | ERROR | software_fj | Reserva fallida: Cliente 'CLI-999' no encontrado.
+2026-11-17 20:14:44 | DEBUG | software_fj | Finally: operación de reserva cerrada
+2026-11-17 20:14:44 | INFO | software_fj | SIM-09 OK | Reserva fallida por cliente inexistente | None
+2026-11-17 20:14:44 | INFO | software_fj | Reserva creada RSV-0003 (pendiente)
+2026-11-17 20:14:44 | INFO | software_fj | Reserva RSV-0003 confirmada. Costo=$307800.00
+2026-11-17 20:14:44 | DEBUG | software_fj | Finally: operación de reserva cerrada
+2026-11-17 20:14:44 | INFO | software_fj | Reserva RSV-0003 procesada correctamente
+2026-11-17 20:14:44 | INFO | software_fj | SIM-10 OK | Asesoría urgente confirmada y procesada | Reserva[RSV-0003] estado=procesada cliente=María Fernanda López servicio=Asesoría Arquitectura de Software duracion=2.0h costo=$307800.00
+2026-11-17 20:14:44 | INFO | software_fj | Reserva RSV-0001 cancelada. Motivo: Cambio de agenda
+2026-11-17 20:14:44 | INFO | software_fj | SIM-11 OK | Cancelación de reserva existente | True
+2026-11-17 20:14:44 | ERROR | software_fj | Cancelación inválida RSV-0003: Intento indebido
+2026-11-17 20:14:44 | ERROR | software_fj | No se canceló RSV-0003: No se puede cancelar una reserva procesada.
+2026-11-17 20:14:44 | INFO | software_fj | SIM-12 OK | Cancelación inválida de reserva procesada | False
+2026-11-17 20:14:44 | INFO | software_fj | Simulaciones finalizadas. Sistema estable.
+2026-11-17 20:14:50 | INFO | software_fj | Sistema iniciado: Software FJ
+2026-11-17 20:14:50 | INFO | software_fj | Servicio registrado: SRV-SALA-01
+2026-11-17 20:14:50 | DEBUG | software_fj | Finally: intento de registro de servicio finalizado
+2026-11-17 20:14:50 | INFO | software_fj | Servicio registrado: SRV-EQ-01
+2026-11-17 20:14:50 | DEBUG | software_fj | Finally: intento de registro de servicio finalizado
+2026-11-17 20:14:50 | INFO | software_fj | Servicio registrado: SRV-ASE-01
+2026-11-17 20:14:50 | DEBUG | software_fj | Finally: intento de registro de servicio finalizado
+2026-11-17 20:14:50 | INFO | software_fj | Servicio registrado: SRV-SALA-02
+2026-11-17 20:14:50 | DEBUG | software_fj | Finally: intento de registro de servicio finalizado
+2026-11-17 20:14:50 | INFO | software_fj | Cliente registrado: Daniel Caicedo (CLI-001)
+2026-11-17 20:14:50 | DEBUG | software_fj | Finally: intento de registro de cliente finalizado
+2026-11-17 20:14:50 | INFO | software_fj | SIM-01 OK | Registro válido de cliente | Cliente[CLI-001] Daniel Caicedo <daniel.caicedo@email.com> (activo)
+2026-11-17 20:14:50 | ERROR | software_fj | Registro de cliente fallido: El correo electrónico no es válido.
+2026-11-17 20:14:50 | DEBUG | software_fj | Finally: intento de registro de cliente finalizado
+2026-11-17 20:14:50 | INFO | software_fj | SIM-02 OK | Registro inválido de cliente (correo) | None
+2026-11-17 20:14:50 | ERROR | software_fj | SIM-03 ERROR | Intento directo de Cliente inválido | El nombre debe tener al menos 3 caracteres.
+2026-11-17 20:14:50 | INFO | software_fj | Cliente registrado: María Fernanda López (CLI-004)
+2026-11-17 20:14:50 | DEBUG | software_fj | Finally: intento de registro de cliente finalizado
+2026-11-17 20:14:50 | INFO | software_fj | SIM-04 OK | Registro válido de segundo cliente | Cliente[CLI-004] María Fernanda López <maria.lopez@email.com> (activo)
+2026-11-17 20:14:50 | ERROR | software_fj | SIM-05 ERROR | Creación incorrecta de servicio (tarifa negativa) | La tarifa base debe ser mayor que cero.
+2026-11-17 20:14:50 | INFO | software_fj | Reserva creada RSV-0001 (pendiente)
+2026-11-17 20:14:50 | INFO | software_fj | Reserva RSV-0001 confirmada. Costo=$257040.00
+2026-11-17 20:14:50 | DEBUG | software_fj | Finally: operación de reserva cerrada
+2026-11-17 20:14:50 | INFO | software_fj | SIM-06 OK | Reserva exitosa de sala | Reserva[RSV-0001] estado=confirmada cliente=Daniel Caicedo servicio=Sala Innovación duracion=3.0h costo=$257040.00
+2026-11-17 20:14:50 | INFO | software_fj | Reserva creada RSV-0002 (pendiente)
+2026-11-17 20:14:50 | INFO | software_fj | Reserva RSV-0002 confirmada. Costo=$367750.00
+2026-11-17 20:14:50 | DEBUG | software_fj | Finally: operación de reserva cerrada
+2026-11-17 20:14:50 | INFO | software_fj | SIM-07 OK | Reserva exitosa de alquiler de equipo | Reserva[RSV-0002] estado=confirmada cliente=María Fernanda López servicio=Kit Proyección duracion=5.0h costo=$367750.00
+2026-11-17 20:14:50 | INFO | software_fj | Servicio SRV-SALA-02 disponible=False
+2026-11-17 20:14:50 | ERROR | software_fj | Reserva fallida: Servicio 'SRV-SALA-02' no disponible.
+2026-11-17 20:14:50 | DEBUG | software_fj | Finally: operación de reserva cerrada
+2026-11-17 20:14:50 | INFO | software_fj | SIM-08 OK | Reserva fallida por servicio no disponible | None
+2026-11-17 20:14:50 | ERROR | software_fj | Reserva fallida: Cliente 'CLI-999' no encontrado.
+2026-11-17 20:14:50 | DEBUG | software_fj | Finally: operación de reserva cerrada
+2026-11-17 20:14:50 | INFO | software_fj | SIM-09 OK | Reserva fallida por cliente inexistente | None
+2026-11-17 20:14:50 | INFO | software_fj | Reserva creada RSV-0003 (pendiente)
+2026-11-17 20:14:50 | INFO | software_fj | Reserva RSV-0003 confirmada. Costo=$307800.00
+2026-11-17 20:14:50 | DEBUG | software_fj | Finally: operación de reserva cerrada
+2026-11-17 20:14:50 | INFO | software_fj | Reserva RSV-0003 procesada correctamente
+2026-11-17 20:14:50 | INFO | software_fj | SIM-10 OK | Asesoría urgente confirmada y procesada | Reserva[RSV-0003] estado=procesada cliente=María Fernanda López servicio=Asesoría Arquitectura de Software duracion=2.0h costo=$307800.00
+2026-11-17 20:14:50 | INFO | software_fj | Reserva RSV-0001 cancelada. Motivo: Cambio de agenda
+2026-11-17 20:14:50 | INFO | software_fj | SIM-11 OK | Cancelación de reserva existente | True
+2026-11-17 20:14:50 | ERROR | software_fj | Cancelación inválida RSV-0003: Intento indebido
+2026-11-17 20:14:50 | ERROR | software_fj | No se canceló RSV-0003: No se puede cancelar una reserva procesada.
+2026-11-17 20:14:50 | INFO | software_fj | SIM-12 OK | Cancelación inválida de reserva procesada | False
+2026-11-17 20:14:50 | INFO | software_fj | Simulaciones finalizadas. Sistema estable.
