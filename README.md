@@ -69,3 +69,7 @@ El `main.py` ejecuta operaciones válidas e inválidas (clientes, servicios, res
 ## Autor
 
 Daniel Caicedo Murillo — Ingeniería de Sistemas, UNAD.
+
+## Seguimiento en GitHub
+
+- Issue asignado: [#1 Documentaci�n: desarrollo individual de la Fase 4](https://github.com/dacaicedo2001/Fase4-Software-FJ-Programacion-213023/issues/1)
